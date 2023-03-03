@@ -1,5 +1,6 @@
 # ChatGPT Customized Assistant 🤖
-Create your own custom assistant in 5 minutes using ChatGPT API and Streamlit!  
+Create your own custom ChatGPT assistant in **5 minutes** using ChatGPT API and Streamlit!  
+
 ![ChatGPT Customized Assistant](assets/chatgpt-customized-assistant-demo.gif)
 
 # Getting Started
@@ -26,7 +27,7 @@ streamlit run assistant.py
 ```
 
 # Credits
-This project was created by VRSEN. (pronounced as "Arsen") using [Streamlit](https://streamlit.io/) 
+This project was created by VRSEN (pronounced as "Arsen") using [Streamlit](https://streamlit.io/) 
 and [Streamlit Chat](https://github.com/AI-Yash/st-chat).
 
 If you need more a more sophisticated assistant, reach out to me on Fiverr or Upwork:
