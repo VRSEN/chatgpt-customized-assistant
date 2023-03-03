@@ -30,7 +30,7 @@ streamlit run assistant.py
 This project was created by VRSEN (pronounced as "Arsen") using [Streamlit](https://streamlit.io/) 
 and [Streamlit Chat](https://github.com/AI-Yash/st-chat).
 
-If you need more a more sophisticated assistant, reach out to me on Fiverr or Upwork:
+If you need more a more sophisticated assistant, with payments/production backend/custom UI reach out to me on Fiverr or Upwork:
 - [Fiverr](https://www.fiverr.com/arseny9795)
 - [Upwork](https://www.upwork.com/freelancers/~01214517c56834a591)
 
