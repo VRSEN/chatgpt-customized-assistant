@@ -11,7 +11,7 @@ st.set_page_config(
     page_title="ChatGPT Business Writing Assistant",
     page_icon=":robot:"
 )
-st.markdown("<h1 style='text-align: center; color: red;'>ChatGPT Custom Assistant</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'>ChatGPT Business Writing Assistant</h1>", unsafe_allow_html=True)
 st.markdown("<div style='text-align: center; width: auto'><a href='https://github.com'>Github Repo</a></div>",
             unsafe_allow_html=True)
 
