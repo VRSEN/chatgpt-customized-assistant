@@ -66,11 +66,11 @@ if st.session_state['messages']:
         if st.session_state['messages'][i]['role'] == 'user':
             message(st.session_state['messages'][i]['content'], is_user=True, key=str(i) + '_user')
         else:
-            message(st.session_state['messages'][i]['content'], key=str(i))
+            message(st.session_state['messages'][i]['content'], key=str(i), seed=30)
 else:
     # generate welcome message
     output = get_completion("")
     st.session_state["messages"].append({"role": "assistant", "content": output})
-    message(output, key=str(0))
+    message(output, key=str(0), seed=30)
 
 st.session_state["first_run"] = False
