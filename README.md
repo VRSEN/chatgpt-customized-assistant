@@ -1,5 +1,6 @@
 # ChatGPT Customized Assistant 🤖
-Create your own custom assistant in 5 minutes using ChatGPT API and Streamlit!
+Create your own custom assistant in 5 minutes using ChatGPT API and Streamlit!  
+![ChatGPT Customized Assistant](assets/chatgpt-customized-assistant-demo.gif)
 
 # Getting Started
 1. Clone this repository
