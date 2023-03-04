@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_chat import message
 import openai
 import os
-import json
 
 # get your API key from https://openai.com/ and set it as an environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")

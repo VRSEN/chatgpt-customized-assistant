@@ -1,4 +1,5 @@
 openai
-# streamlit-chat
+# use local version due to a bug in the current pakage release
+#streamlit-chat
 streamlit
 
