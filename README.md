@@ -31,6 +31,13 @@ export OPENAI_API_KEY=<your_api_key>
 streamlit run assistant.py
 ```
 
+# How to Customize 
+1. Change the system message at https://github.com/VRSEN/chatgpt-customized-assistant/blob/d034e730740c92cffb3133f87032fd6ea6952264/assistant.py#L24-L26
+  
+2. Change the default user message (`Improve this message: `) at https://github.com/VRSEN/chatgpt-customized-assistant/blob/d034e730740c92cffb3133f87032fd6ea6952264/assistant.py#L54
+
+3. Add/change any model parameters at https://github.com/VRSEN/chatgpt-customized-assistant/blob/d034e730740c92cffb3133f87032fd6ea6952264/assistant.py#L43-L47
+
 # Credits
 This project was created by VRSEN (pronounced as "Arsen") using [Streamlit](https://streamlit.io/) 
 and [Streamlit Chat](https://github.com/AI-Yash/st-chat).
