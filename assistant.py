@@ -17,7 +17,6 @@ st.markdown("<div style='text-align: center; width: auto'><a href='https://githu
 if 'messages' not in st.session_state:
     st.session_state['messages'] = []
 
-
 def get_completion(user_query):
     # system message is the first message in the conversation
     # that should give ChatGPT an idea of what's going on
@@ -46,7 +45,7 @@ def get_completion(user_query):
         temperature=0.8,  # 0-1, higher is more creative
     )
 
-    return completion.choices[0].message.content
+    return completion.choices[0].message.content.strip("\n")
 
 
 # get user input query
@@ -55,7 +54,6 @@ user_input = st.text_input("You: ", "Improve this message: ", key="input")
 first_run = st.session_state.get("first_run", True)
 if user_input and not first_run:
     output = get_completion(user_input)
-
     st.session_state["messages"].append({"role": "user", "content": user_input})
     st.session_state["messages"].append({"role": "assistant", "content": output})
 
